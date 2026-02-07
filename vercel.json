@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "ng build --prod",
+  "outputDirectory": "dist/recruittech-landing",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
